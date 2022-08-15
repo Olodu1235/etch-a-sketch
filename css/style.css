@@ -1,0 +1,32 @@
+html{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.gridholder{
+    float: right;
+}
+.left{
+    display: inline-block;
+}
+.square{
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+.color{
+    background-color: red;
+    border: 1px solid black;
+}
+
+.gridcontainer{
+    margin-top: 25px;
+    margin-right: 150px;
+    display: inline-grid;
+    grid-template-columns: repeat(16,2fr);
+    grid-template-rows: repeat(16,2fr);
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 500px;
+    width: 500px;
+}
